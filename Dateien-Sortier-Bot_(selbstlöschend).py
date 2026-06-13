@@ -5,7 +5,12 @@ import os
 # Dieses Skript hier in den Ordner ziehen, wo sortiert werden soll.
 # Dann mit Python in der Konsole ausführen in dem Ordner.
 
-# Ordner nehmen, wo dieses Skript liegt, verwenden:
+"""
+Dieser Bot sortiert alle Dateien nach Dateiendungen und schiebt sie in Unterordner für jede Dateiendung.
+Danach löscht sich der Bot selbst (dieses Skript löscht sich selbst nach Ausführung).
+"""
+
+# in dem Ordner agieren, wo dieses Skript liegt:
 dateipfad = Path(__file__).parent
 dieser_ordner = Path(dateipfad)
 
